@@ -2,6 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
+# created date: 2020.06.15
+# created by: kh737v
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
