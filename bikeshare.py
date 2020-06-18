@@ -4,6 +4,7 @@ import numpy as np
 
 # created date: 2020.06.15
 # created by: kh737v
+# additional change to this file for the project work
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
