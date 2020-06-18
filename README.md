@@ -13,3 +13,6 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Project work: 3. Additional Changes to Documentation
+This line is added for an additional change to documentation.
+
