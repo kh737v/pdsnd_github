@@ -13,7 +13,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
-
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -51,7 +50,6 @@ def get_filters():
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
-
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -244,7 +242,16 @@ def display_data(df):
                 print(df.iloc[:,0:].iloc[firstline:lastline])
             elif select_more.lower() == 'no':
                 break
-    
+def first_commit():
+    print('This is the first change for step 4. Refactor Code')
+
+def second_commit():
+    print('This is the second change for step 4. Refactor Code')
+
+def third_commit():
+    print('This is the third change for step 4. Refactor code')
+
+
 def main():
     while True:
         city, month, day = get_filters()
@@ -254,13 +261,10 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
         display_data(df)
-
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
