@@ -239,9 +239,10 @@ def display_data(df):
             elif select_more.lower() == 'no':
                 break
 def first_commit():
-    print('This is the first commit for step 4. Refactor Code')
+    print('This is the first change for step 4. Refactor Code')
 
-
+def second_commit():
+    print('This is the second change for step 4. Refacto Code')
 
 def main():
     while True:
