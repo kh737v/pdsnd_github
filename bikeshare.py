@@ -242,7 +242,11 @@ def first_commit():
     print('This is the first change for step 4. Refactor Code')
 
 def second_commit():
-    print('This is the second change for step 4. Refacto Code')
+    print('This is the second change for step 4. Refactor Code')
+
+def third_commit():
+    print('This is the third change for step 4. Refactor code')
+
 
 def main():
     while True:
