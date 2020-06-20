@@ -251,6 +251,8 @@ def second_commit():
 def third_commit():
     print('This is the third change for step 4. Refactor code')
 
+def new_func():
+    print('This is a new function for step 4. Refactor code')
 
 def main():
     while True:
